@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <h1>Curriculum Vitae</h1>
+      <h2>Hugo Mota</h2>
+      <a href="index.html">index</a>&nbsp;|&nbsp;<a href="educacion.html">educación</a>&nbsp;|&nbsp;<a href="experiencia.html">experiencia</a>
+    </header>
+    <section>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="2" cellspacing="0" valign="center">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>1985</td>
+          <td>Escuela Primaria</td>
+          <td>Cuathemoc</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>1990</td>
+          <td>Escuela Secundaria</td>
+          <td>EST. 108</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2001</td>
+          <td>Universidad</td>
+          <td>UTM</td>
+          <td>Si</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section>
+      <br/>
+      <h2>Agregar Educación</h2>
+      <form action="index.html" method="post" >
+        <p>
+          <label for="Anio">Año:</label>
+          <select name="Anio">
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+          </select>
+        </p>
+        <p>
+          <label for="Inst">Institución:</label>
+          <input type="text" name="Inst" required></input>
+        </p>
+        <p>
+          <label for="Lugar">Lugar:</label>
+          <textarea name="Lugar" id="Lugar" cols="21" rows="3"></textarea>
+        </p>
+        <p>
+          <label for="Culmino">Culminó?:</label>
+          <input type="radio" name="Culmino">Si</input>
+          <input type="radio" name="Culmino">No</input>
+        </p>
+        <p>
+          <input type="submit" value="Enviar"></input>
+        </p>
+      </form>
+    </section>
+    <footer>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li><strong>Email:</strong><a href="mailto:arielmot@hotmail.com?subject=feedback">arielmot@hotmail.com</a></li>
+        <li><strong>Teléfono:</strong>951 222-92-47</li>
+        <li><strong>Dirección:</strong>1a Privada de Niños Heroes, 114-A, Centro, Oaxaca</li>
+      </ul>
+    </footer>
+  </body>
+</html>
